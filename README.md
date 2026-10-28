@@ -10,15 +10,19 @@ Lataa päärepon [uusimmasta julkaisusta](https://github.com/Jakke77/Veriyo-Live
 `veriyo-live_…_all.deb` ja asenna se Ubuntun paketinasentimella tai päätteessä:
 
 ```bash
-sudo apt install ./veriyo-live_0.3.0_all.deb
+sudo apt install ./veriyo-live_0.4.0_all.deb
 ```
 
 Sovellus löytyy nimellä **Veriyö Live**. Taustan vaihtaminen tarvitsee kirjautuneen
 Ubuntu GNOME -istunnon. Komento: `veriyo-live`.
 
-## Taivasteemat
+## Maisemat ja taivasteemat
 
-Versio 0.3.0 sisältää neljä uutta, ohjelmallisesti piirrettävää teemaa:
+Versio 0.4.0 sisältää kolme uutta maisemaa ja aiemmat taivasteemat:
+
+- **Metsien puro:** virtaavaa vettä, sumua ja liikkuvaa kasvillisuutta.
+- **Varjoruusujen puutarha:** goottilainen kasvihuone, ruusuja ja leijuvia terälehtiä.
+- **Viimeinen majakka:** kiertävä valokeila, vieras meri, rengasplaneetta ja kaukainen varjo.
 
 - **Pohjantähden tähtitaivas:** kirkkaat tähdet sijainnin ja oikean ajan mukaan.
 - **Kuun kulkureitti:** oikea kuunvaihe, päivän reitti ja arvioidut nousu- ja laskuajat.
@@ -28,6 +32,23 @@ Versio 0.3.0 sisältää neljä uutta, ohjelmallisesti piirrettävää teemaa:
 Ne sisältyvät sovellukseen ja toimivat ilman lisäpakettia tai verkkoyhteyttä.
 GNOME näyttää koristeellisen liikkeen omilla taustakuvasiirtymillään. Tähtien ja
 Kuun tiedot päivittyvät valitulla aikavälillä. Lukituskuva on pysäytyskuva.
+
+Maisemien aamu-, päivä-, ilta- ja yövalaistus seuraavat valitun aikavyöhykkeen
+paikallista kellonaikaa. GNOME virkistää valaistuksen valitulla aikavälillä;
+1 minuutti antaa tiheimmän päivityksen. **Nopeutettu esikatselu** näyttää
+vuorokauden minuutissa muuttamatta työpöydän aikaa.
+
+## Satunnaisvaihto
+
+**Vaihda satunnainen tausta nyt** vaihtaa käynnissä olevan taustan tai valitsee
+pysäytettynä esikatselun. **Valitse mukaan tulevat taustat…** avaa rastitettavan
+luettelon, jossa voit rajata arvonnan omiin suosikkeihin. Ubuntu-versiot tarvitsevat
+asennetun kuvapaketin. Nykyistä taustaa ei arvota heti uudelleen.
+
+**Vaihda taustaa satunnaisesti** vaihtaa taustaa 1, 5, 15, 26 tai 60 minuutin välein,
+kun tausta on otettu käyttöön. Valitse vähintään kaksi käytettävissä olevaa taustaa,
+jos haluat jatkuvaa vaihtelua. Pysäytys pysäyttää myös satunnaisvaihdon; palautus
+säilyttää alkuperäisen taustan useiden vaihtojen jälkeenkin.
 
 ## Ubuntun oletustaustakuvakokoelma
 
