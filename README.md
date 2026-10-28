@@ -10,7 +10,7 @@ Lataa päärepon [uusimmasta julkaisusta](https://github.com/Jakke77/Veriyo-Live
 `veriyo-live_…_all.deb` ja asenna se Ubuntun paketinasentimella tai päätteessä:
 
 ```bash
-sudo apt install ./veriyo-live_0.4.0_all.deb
+sudo apt install ./veriyo-live_0.4.1_all.deb
 ```
 
 Sovellus löytyy nimellä **Veriyö Live**. Taustan vaihtaminen tarvitsee kirjautuneen
@@ -18,7 +18,7 @@ Ubuntu GNOME -istunnon. Komento: `veriyo-live`.
 
 ## Maisemat ja taivasteemat
 
-Versio 0.4.0 sisältää kolme uutta maisemaa ja aiemmat taivasteemat:
+Versio 0.4.1 korjaa tähtitaivaan suunnan ja sisältää kolme maisemaa sekä neljä taivasteemaa:
 
 - **Metsien puro:** virtaavaa vettä, sumua ja liikkuvaa kasvillisuutta.
 - **Varjoruusujen puutarha:** goottilainen kasvihuone, ruusuja ja leijuvia terälehtiä.
@@ -32,6 +32,11 @@ Versio 0.4.0 sisältää kolme uutta maisemaa ja aiemmat taivasteemat:
 Ne sisältyvät sovellukseen ja toimivat ilman lisäpakettia tai verkkoyhteyttä.
 GNOME näyttää koristeellisen liikkeen omilla taustakuvasiirtymillään. Tähtien ja
 Kuun tiedot päivittyvät valitulla aikavälillä. Lukituskuva on pysäytyskuva.
+
+Pohjantähden tähtitaivas ja Kuun kulkureitti katsovat pohjoiseen: zeniitti on
+ylhäällä, länsi vasemmalla ja itä oikealla. Koko taivas ei mahdu tähän näkymään;
+näkymän ulkopuolella olevasta Kuusta kerrotaan erikseen. Kuunvaihe ja nousu-
+ja laskuajat näkyvät edelleen.
 
 Maisemien aamu-, päivä-, ilta- ja yövalaistus seuraavat valitun aikavyöhykkeen
 paikallista kellonaikaa. GNOME virkistää valaistuksen valitulla aikavälillä;
