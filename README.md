@@ -10,7 +10,7 @@ Lataa päärepon [uusimmasta julkaisusta](https://github.com/Jakke77/Veriyo-Live
 `veriyo-live_…_all.deb` ja asenna se Ubuntun paketinasentimella tai päätteessä:
 
 ```bash
-sudo apt install ./veriyo-live_0.4.1_all.deb
+sudo apt install ./veriyo-live_0.4.2_all.deb
 ```
 
 Sovellus löytyy nimellä **Veriyö Live**. Taustan vaihtaminen tarvitsee kirjautuneen
@@ -18,7 +18,7 @@ Ubuntu GNOME -istunnon. Komento: `veriyo-live`.
 
 ## Maisemat ja taivasteemat
 
-Versio 0.4.1 korjaa tähtitaivaan suunnan ja sisältää kolme maisemaa sekä neljä taivasteemaa:
+Versio 0.4.2 korjaa GNOMEn taustojen sekoittumisen ja sisältää kolme maisemaa sekä neljä taivasteemaa:
 
 - **Metsien puro:** virtaavaa vettä, sumua ja liikkuvaa kasvillisuutta.
 - **Varjoruusujen puutarha:** goottilainen kasvihuone, ruusuja ja leijuvia terälehtiä.
@@ -42,6 +42,19 @@ Maisemien aamu-, päivä-, ilta- ja yövalaistus seuraavat valitun aikavyöhykke
 paikallista kellonaikaa. GNOME virkistää valaistuksen valitulla aikavälillä;
 1 minuutti antaa tiheimmän päivityksen. **Nopeutettu esikatselu** näyttää
 vuorokauden minuutissa muuttamatta työpöydän aikaa.
+
+## GNOMEn taustojen sekoittumisen korjaus (0.4.2)
+
+Vanha versio saattoi sekoittaa eri teemojen kuvia samassa animaatiossa, vaikka
+satunnaisvaihdon väliksi oli valittu 26 minuuttia. Uusi versio tekee jokaisen
+kuvasarjan omiin tiedostoihinsa, jotta GNOMEn välimuisti ei palauta edellisen
+teeman kuvia. Nykyinen ja edellinen sarja säilyvät; vanhemmat siivotaan vasta
+onnistuneen vaihdon jälkeen.
+
+Sulje vanha ohjelma ilmoitusalueen **Lopeta**-valinnalla, asenna uusi DEB ja
+paina **Ota elävä tausta käyttöön**. Nykyiset asetukset, valitut taustat ja
+asennettu Ubuntu-kuvapaketti säilyvät. Satunnaisvaihdon aikaväli määrää teeman
+vaihdon; saman teeman tietojen päivitys ei arvo uutta taustaa.
 
 ## Satunnaisvaihto
 
